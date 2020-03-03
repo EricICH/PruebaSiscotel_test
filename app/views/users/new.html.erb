@@ -1,0 +1,48 @@
+<h1>Users#new</h1>
+<%= form_for :users, url: users_path do |f| %>
+
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :doc %><br>
+    <%= f.text_field :doc %>
+  </p>
+
+ <p>
+   <%= f.label :doc %><br>
+   <%= f.text_field :doc %>
+ </p>
+
+ <p>
+   <%= f.label :doc %><br>
+   <%= f.date_field :dateEm %>
+ </p>
+
+ <p>
+   <%= f.label :doc %><br>
+   <%= f.date_field :dateExp %>
+ </p>
+ <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </p>
+
+  <p>
+    <%= f.label :secPhone %><br>
+    <%= f.text_field :secPhone %>
+  </p>
+  
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+

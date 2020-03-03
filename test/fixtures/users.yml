@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  typeDoc: MyString
+  doc: MyString
+  dateEm: MyString
+  dateExp: MyString
+  name: MyString
+  email: MyString
+  phone: MyString
+  secPhone: MyString
+
+two:
+  type: 
+  typeDoc: MyString
+  doc: MyString
+  dateEm: MyString
+  dateExp: MyString
+  name: MyString
+  email: MyString
+  phone: MyString
+  secPhone: MyString
